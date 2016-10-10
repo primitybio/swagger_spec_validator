@@ -12,7 +12,7 @@ with open(os.path.join(base_dir, "swagger_spec_validator", "__about__.py")) as f
 
 setup(
     name=about['__title__'],
-    version=about['__version__'],
+    version=about['__version__'] + '+blackbuck',
 
     description=about['__summary__'],
 
